@@ -1,6 +1,4 @@
-# pizzaservice
-A simple web app that lets you order pizzas, written with [Flask](http://flask.pocoo.org/) and [Angular CLI](https://github.com/angular/angular-cli), using [MongoDB](https://www.mongodb.com/) for persistence.
-## Prerequisites
+
 These versions were the actual versions of my dev environment
 * Python 3.6.1
 * pip 9.0.1
@@ -8,13 +6,6 @@ These versions were the actual versions of my dev environment
 * MongoDB shell version: 3.2.16
 * Node v6.10.1
 * NPM 3.10.10
-
-## Instructions
-
-Clone repo
-```bash
-git clone git@github.com:sluger/pizzaservice.git
-```
 
 Create virtualenv
 ```bash
@@ -74,39 +65,3 @@ To stop the API, hit `ctrl + c`
 deactivate
 ```
 
-### UI with [Angular CLI](https://github.com/angular/angular-cli)
-```bash
-npm install -g @angular/cli
-
-cd ui
-npm install
-ng serve
-```
-
-The Angular UI is hosted on [http://localhost:4200](http://localhost:4200)
-Tested with Chrome Version 63.0.3218.0 (Official Build) canary (64-bit)
-
-To stop the web server, hit `ctrl + c`
-
-### TODOs
-* Setup mail server
-* Import UI library e.g. [https://almsaeedstudio.com/preview](https://almsaeedstudio.com/preview)
-* Refactor hacky css
-* Revise responsive layout
-* Test on Linux
-* Test with multiple browsers
-
-### Future work
-* Improve logging
-* Improve error handling
-* Cleanup python code
-* Improve json validator
-* Tune MongoDB configuration
-* Flask unit testing
-* Angular unit testing
-* Angular end-to-end testing
-* Development and production environment
-* Ahead of Time Compilation
-* Tree shaking
-* Sass support
-* Enable SSL
